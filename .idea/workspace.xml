@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31647395-f057-4b83-a9f5-648c3352aa84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApiTest/FirstApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApiTest/StaticImportBaseURI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/base_urls/RestFullBaseUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day02/C07_RequestSpecification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ApiTest/FirstApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiTest/FirstApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day01/C06_QueryParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day01/C06_QueryParameters.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -42,25 +48,28 @@
     "TestNG.C05_BodyAssertionWithHamcrest.assertBodyHamcrestMethod.executor": "Run",
     "TestNG.C06_QueryParameters.executor": "Run",
     "TestNG.C06_QueryParameters.queryParametersTest.executor": "Run",
+    "TestNG.C07_RequestSpecification.queryParametersTest.executor": "Run",
     "TestNG.FirstApiTest.test1.executor": "Run",
+    "TestNG.StaticImportBaseURI.test03.executor": "Run",
+    "TestNG.StaticImportBaseURI.test2.executor": "Run",
     "TestNG.Task2.task2.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.FirstApiTest.test1">
-    <configuration name="C05_BodyAssertionWithHamcrest.assertBodyHamcrestMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C07_RequestSpecification.queryParametersTest">
+    <configuration name="C06_QueryParameters.queryParametersTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SDA2024_API" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day01.*" />
+          <option name="PATTERN" value="day02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="day01" />
-      <option name="MAIN_CLASS_NAME" value="day01.C05_BodyAssertionWithHamcrest" />
-      <option name="METHOD_NAME" value="assertBodyHamcrestMethod" />
+      <option name="MAIN_CLASS_NAME" value="day01.C06_QueryParameters" />
+      <option name="METHOD_NAME" value="queryParametersTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -68,33 +77,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C06_QueryParameters" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C07_RequestSpecification.queryParametersTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SDA2024_API" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day01.*" />
+          <option name="PATTERN" value="day02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day01" />
-      <option name="MAIN_CLASS_NAME" value="day01.C06_QueryParameters" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C06_QueryParameters.queryParametersTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SDA2024_API" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day01" />
-      <option name="MAIN_CLASS_NAME" value="day01.C06_QueryParameters" />
+      <option name="PACKAGE_NAME" value="day02" />
+      <option name="MAIN_CLASS_NAME" value="day02.C07_RequestSpecification" />
       <option name="METHOD_NAME" value="queryParametersTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -121,17 +113,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2.task2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="StaticImportBaseURI.test03" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SDA2024_API" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW.*" />
+          <option name="PATTERN" value="ApiTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HW" />
-      <option name="MAIN_CLASS_NAME" value="HW.Task2" />
-      <option name="METHOD_NAME" value="task2" />
+      <option name="PACKAGE_NAME" value="ApiTest" />
+      <option name="MAIN_CLASS_NAME" value="ApiTest.StaticImportBaseURI" />
+      <option name="METHOD_NAME" value="test03" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticImportBaseURI.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SDA2024_API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ApiTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ApiTest" />
+      <option name="MAIN_CLASS_NAME" value="ApiTest.StaticImportBaseURI" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -141,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FirstApiTest.test1" />
-        <item itemvalue="TestNG.Task2.task2" />
-        <item itemvalue="TestNG.C06_QueryParameters" />
+        <item itemvalue="TestNG.C07_RequestSpecification.queryParametersTest" />
         <item itemvalue="TestNG.C06_QueryParameters.queryParametersTest" />
-        <item itemvalue="TestNG.C05_BodyAssertionWithHamcrest.assertBodyHamcrestMethod" />
+        <item itemvalue="TestNG.StaticImportBaseURI.test03" />
+        <item itemvalue="TestNG.StaticImportBaseURI.test2" />
+        <item itemvalue="TestNG.FirstApiTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -172,8 +182,17 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/day01/C06_QueryParameters.java</url>
-          <line>12</line>
+          <line>11</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/ApiTest/StaticImportBaseURI.java</url>
+          <line>27</line>
+          <properties class="ApiTest.StaticImportBaseURI" method="test03">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

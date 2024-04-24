@@ -20,6 +20,7 @@ public class FirstApiTest {
         Response response = given().when().get(url);
         System.out.println(response.statusCode());
         System.out.println(response.statusLine());
+
     }
 
 

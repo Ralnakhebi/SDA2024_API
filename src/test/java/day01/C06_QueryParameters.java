@@ -7,8 +7,7 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.containsString;
-import static org.hamcrest.Matchers.hasSize;
+import static org.hamcrest.Matchers.*;
 
 public class C06_QueryParameters {
   /*
@@ -34,8 +33,9 @@ public class C06_QueryParameters {
 //        4. Do Assertion
         response
                 .then()
-                .body(containsString("bookingid"));
-        response.asPrettyString().contains("bookingid");
+                .body(containsString("bookingid"))
+                .body("bookingid",hasSize(greaterThan(0)));
+        //response.asString().contains("bookingid");
 
         //1st way:
 
