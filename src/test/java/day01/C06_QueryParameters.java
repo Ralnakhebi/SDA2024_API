@@ -9,7 +9,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
-public class C06_QueryParameters {
+public class C06_QueryParameters{
   /*
     Given
        https://restful-booker.herokuapp.com/booking

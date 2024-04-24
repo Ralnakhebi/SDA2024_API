@@ -1,4 +1,4 @@
-package HW;
+package HW.day01;
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -40,7 +40,7 @@ public class Task2 {
                 .statusCode(404)
                 .statusLine("HTTP/1.1 404 Not Found")
                 .header("Server",equalTo("cloudflare"))
-                .body("[0]",is(nullValue()));
+                .body("[0]",equalTo(nullValue()));
         assertTrue(response.body().asPrettyString().contains(""));
     }
 }
