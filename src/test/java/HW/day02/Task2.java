@@ -1,6 +1,6 @@
 package HW.day02;
 
-import base_urls.HwBaseUrl;
+import HW.day03.HwPojo.HW1.HwBaseUrl;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 

@@ -5,18 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31647395-f057-4b83-a9f5-648c3352aa84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day02/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day02/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day02/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/base_urls/HwBaseUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/base_urls/JsonPlaceHolderBaseUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day02/C08_JsonPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day02/C09_GroovyLanguage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day02/C10_PostRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day03/HW4/CountBaseUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day03/HW4/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day03/HwPojo/HW1/Pojo_HW1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day03/HwPojo/HW1/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day03/HwPojo/HW2/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day03/HwPojo/HW2/UserPojo_HW2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day03/HwPojo/HW5/PetCategoryPojo_HW5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day03/HwPojo/HW5/PetPojo_HW5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day03/HwPojo/HW5/PetStoreBaseUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day03/HwPojo/HW5/PetTagPojo_HW5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day03/HwPojo/HW5/Task5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day03/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day03/C11_PostRequestMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day03/C12_PostRequestTestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day03/C13_PutRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day03/C14_PatchRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day03/C15_PostRequestPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/JsonPlaceHolderPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testdata/JsonPlaceHolderTestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HW/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HW/day01/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HW/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HW/day01/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day01/C06_QueryParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day01/C06_QueryParameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HW/day02/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HW/day02/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HW/day02/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HW/day02/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HW/day02/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HW/day02/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base_urls/HwBaseUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HW/day03/HwPojo/HW1/HwBaseUrl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +71,26 @@
     "TestNG.C08_JsonPath.jsonPathTest.executor": "Run",
     "TestNG.C09_GroovyLanguage.groovyTest.executor": "Run",
     "TestNG.C10_PostRequest.postRequestTest.executor": "Run",
+    "TestNG.C11_PostRequestMap.postRequestTest.executor": "Run",
+    "TestNG.C12_PostRequestTestData.jsonPlaceHolder.executor": "Run",
+    "TestNG.C13_PutRequest.putRequest.executor": "Run",
+    "TestNG.C14_PatchRequest.patchRequestTest.executor": "Run",
+    "TestNG.C15_PostRequestPojo.postRequestPojoTest.executor": "Run",
     "TestNG.FirstApiTest.test1.executor": "Run",
     "TestNG.StaticImportBaseURI.test03.executor": "Run",
     "TestNG.StaticImportBaseURI.test2.executor": "Run",
+    "TestNG.Task1.executor": "Run",
+    "TestNG.Task1.postRequest.executor": "Run",
     "TestNG.Task1.task1.executor": "Run",
+    "TestNG.Task2.createUser.executor": "Run",
     "TestNG.Task2.task2.executor": "Run",
+    "TestNG.Task3.countAvailablePet.executor": "Run",
     "TestNG.Task3.task3.executor": "Run",
+    "TestNG.Task4.countAvailablePet.executor": "Run",
+    "TestNG.Task5.deleteRequest.executor": "Run",
+    "TestNG.Task5.getRequest.executor": "Run",
+    "TestNG.Task5.postRequest.executor": "Run",
+    "TestNG.Task5.putRequest.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.lookFeel"
@@ -74,18 +101,18 @@
       <recent name="base_urls" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Task1.task1">
-    <configuration name="C09_GroovyLanguage.groovyTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Task4.countAvailablePet">
+    <configuration name="Task2.createUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SDA2024_API" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02.*" />
+          <option name="PATTERN" value="HW.day03.HwPojo.HW2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day02" />
-      <option name="MAIN_CLASS_NAME" value="day02.C09_GroovyLanguage" />
-      <option name="METHOD_NAME" value="groovyTest" />
+      <option name="PACKAGE_NAME" value="HW.day03.HwPojo.HW2" />
+      <option name="MAIN_CLASS_NAME" value="HW.day03.HwPojo.HW2.Task2" />
+      <option name="METHOD_NAME" value="createUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -93,17 +120,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C10_PostRequest.postRequestTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task3.countAvailablePet" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SDA2024_API" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02.*" />
+          <option name="PATTERN" value="HW.day03.HwPojo.HW2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day02" />
-      <option name="MAIN_CLASS_NAME" value="day02.C10_PostRequest" />
-      <option name="METHOD_NAME" value="postRequestTest" />
+      <option name="PACKAGE_NAME" value="HW.day03" />
+      <option name="MAIN_CLASS_NAME" value="HW.day03.Task3" />
+      <option name="METHOD_NAME" value="countAvailablePet" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -111,17 +138,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1.task1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task4.countAvailablePet" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SDA2024_API" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW.day02.*" />
+          <option name="PATTERN" value="HW.day03.HW4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HW.day02" />
-      <option name="MAIN_CLASS_NAME" value="HW.day02.Task1" />
-      <option name="METHOD_NAME" value="task1" />
+      <option name="PACKAGE_NAME" value="HW.day03.HW4" />
+      <option name="MAIN_CLASS_NAME" value="HW.day03.HW4.Task4" />
+      <option name="METHOD_NAME" value="countAvailablePet" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -129,17 +156,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2.task2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task5.deleteRequest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SDA2024_API" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW.day02.*" />
+          <option name="PATTERN" value="HW.day03.HwPojo.HW5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HW.day02" />
-      <option name="MAIN_CLASS_NAME" value="HW.day02.Task2" />
-      <option name="METHOD_NAME" value="task2" />
+      <option name="PACKAGE_NAME" value="HW.day03" />
+      <option name="MAIN_CLASS_NAME" value="HW.day03.HwPojo.HW5.Task5" />
+      <option name="METHOD_NAME" value="deleteRequest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -147,17 +174,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3.task3" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task5.putRequest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SDA2024_API" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW.day02.*" />
+          <option name="PATTERN" value="HW.day03.HwPojo.HW5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HW.day02" />
-      <option name="MAIN_CLASS_NAME" value="HW.day02.Task3" />
-      <option name="METHOD_NAME" value="task3" />
+      <option name="PACKAGE_NAME" value="HW.day03" />
+      <option name="MAIN_CLASS_NAME" value="HW.day03.HwPojo.HW5.Task5" />
+      <option name="METHOD_NAME" value="putRequest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -167,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Task1.task1" />
-        <item itemvalue="TestNG.Task2.task2" />
-        <item itemvalue="TestNG.Task3.task3" />
-        <item itemvalue="TestNG.C10_PostRequest.postRequestTest" />
-        <item itemvalue="TestNG.C09_GroovyLanguage.groovyTest" />
+        <item itemvalue="TestNG.Task4.countAvailablePet" />
+        <item itemvalue="TestNG.Task2.createUser" />
+        <item itemvalue="TestNG.Task3.countAvailablePet" />
+        <item itemvalue="TestNG.Task5.deleteRequest" />
+        <item itemvalue="TestNG.Task5.putRequest" />
       </list>
     </recent_temporary>
   </component>
@@ -218,6 +245,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/HW/day03/Task3.java</url>
+          <line>19</line>
+          <properties class="HW.day03.Task3" method="countAvailablePet">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/HW/day03/HW4/Task4.java</url>
+          <line>25</line>
+          <properties class="HW.day03.HW4.Task4" method="countAvailablePet">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

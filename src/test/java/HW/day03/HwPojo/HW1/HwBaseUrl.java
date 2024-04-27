@@ -1,4 +1,4 @@
-package base_urls;
+package HW.day03.HwPojo.HW1;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
