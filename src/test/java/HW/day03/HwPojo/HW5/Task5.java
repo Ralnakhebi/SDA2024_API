@@ -62,7 +62,7 @@ public class Task5 extends PetStoreBaseUrl {
         //Set expected Data
         //Create a List of tags to match Json Syntax type
 
-        //Sent POST Request
+        //Sent GET Request
         Response response = given(spec).when().get("{first}/{second}");
         response.prettyPrint();
         PetPojo_HW5 actualData= response.as(PetPojo_HW5.class);
@@ -87,7 +87,7 @@ public class Task5 extends PetStoreBaseUrl {
         payLoad.setName("Luna");
         //Create a List of tags to match Json Syntax type
 
-        //Sent POST Request
+        //Sent PUT Request
         Response response = given(spec).body(payLoad).when().put("{first}");
         response.prettyPrint();
 
@@ -111,7 +111,7 @@ public class Task5 extends PetStoreBaseUrl {
         //Set expected Data
         //Create a List of tags to match Json Syntax type
 
-        //Sent POST Request
+        //Sent DELETE Request
         Response response = given(spec).when().delete("{first}/{second}");
         response.prettyPrint();
         //Do Assertions For GET Request
