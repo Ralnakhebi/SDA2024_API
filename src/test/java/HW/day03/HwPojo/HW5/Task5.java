@@ -109,18 +109,17 @@ public class Task5 extends PetStoreBaseUrl {
         spec.pathParams("first","pet"
                 ,"second",id);
         //Set expected Data
-        //Create a List of tags to match Json Syntax type
 
         //Sent DELETE Request
         Response response = given(spec).when().delete("{first}/{second}");
         response.prettyPrint();
-        //Do Assertions For GET Request
+
         response
                 .then()
                         .body("message",equalTo(id+""));
         assertEquals(200,response.statusCode());
 
-
+        //Do Assertions For GET Request to make sure the data was deleted
         response = given(spec).when().get("{first}/{second}");
         response.prettyPrint();
         //Do Assertions
