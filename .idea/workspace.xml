@@ -4,33 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31647395-f057-4b83-a9f5-648c3352aa84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day03/HW4/CountBaseUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day03/HW4/Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day03/HwPojo/HW1/Pojo_HW1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day03/HwPojo/HW1/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day03/HwPojo/HW2/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day03/HwPojo/HW2/UserPojo_HW2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day03/HwPojo/HW5/PetCategoryPojo_HW5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day03/HwPojo/HW5/PetPojo_HW5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day03/HwPojo/HW5/PetStoreBaseUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day03/HwPojo/HW5/PetTagPojo_HW5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day03/HwPojo/HW5/Task5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day03/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day03/C11_PostRequestMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day03/C12_PostRequestTestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day03/C13_PutRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day03/C14_PatchRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day03/C15_PostRequestPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/JsonPlaceHolderPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testdata/JsonPlaceHolderTestData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HW/day02/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HW/day02/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HW/day02/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HW/day02/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HW/day02/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HW/day02/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base_urls/HwBaseUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HW/day03/HwPojo/HW1/HwBaseUrl.java" afterDir="false" />
-    </list>
+    <list default="true" id="31647395-f057-4b83-a9f5-648c3352aa84" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,6 +62,7 @@
     "TestNG.Task3.task3.executor": "Run",
     "TestNG.Task4.countAvailablePet.executor": "Run",
     "TestNG.Task5.deleteRequest.executor": "Run",
+    "TestNG.Task5.executor": "Run",
     "TestNG.Task5.getRequest.executor": "Run",
     "TestNG.Task5.postRequest.executor": "Run",
     "TestNG.Task5.putRequest.executor": "Run",
@@ -101,7 +76,7 @@
       <recent name="base_urls" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Task4.countAvailablePet">
+  <component name="RunManager" selected="TestNG.Task5">
     <configuration name="Task2.createUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SDA2024_API" />
       <extension name="coverage">
@@ -156,7 +131,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task5.deleteRequest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task5" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SDA2024_API" />
       <extension name="coverage">
         <pattern>
@@ -164,17 +139,16 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HW.day03" />
+      <option name="PACKAGE_NAME" value="HW.day03.HwPojo.HW5" />
       <option name="MAIN_CLASS_NAME" value="HW.day03.HwPojo.HW5.Task5" />
-      <option name="METHOD_NAME" value="deleteRequest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task5.putRequest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task5.getRequest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SDA2024_API" />
       <extension name="coverage">
         <pattern>
@@ -182,9 +156,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HW.day03" />
+      <option name="PACKAGE_NAME" value="HW.day03.HwPojo.HW5" />
       <option name="MAIN_CLASS_NAME" value="HW.day03.HwPojo.HW5.Task5" />
-      <option name="METHOD_NAME" value="putRequest" />
+      <option name="METHOD_NAME" value="getRequest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -194,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Task5" />
+        <item itemvalue="TestNG.Task5.getRequest" />
         <item itemvalue="TestNG.Task4.countAvailablePet" />
         <item itemvalue="TestNG.Task2.createUser" />
         <item itemvalue="TestNG.Task3.countAvailablePet" />
-        <item itemvalue="TestNG.Task5.deleteRequest" />
-        <item itemvalue="TestNG.Task5.putRequest" />
       </list>
     </recent_temporary>
   </component>

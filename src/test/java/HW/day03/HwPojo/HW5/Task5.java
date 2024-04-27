@@ -103,7 +103,7 @@ public class Task5 extends PetStoreBaseUrl {
 
     }
 
-    @Test(dependsOnMethods = "postRequest")
+    @Test(dependsOnMethods = "postRequest",priority = 1)
     public void deleteRequest(){
         //Set Url
         spec.pathParams("first","pet"
