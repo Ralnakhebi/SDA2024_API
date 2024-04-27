@@ -77,7 +77,7 @@ public class Task5 extends PetStoreBaseUrl {
         assertEquals(payLoad.getStatus(),actualData.getStatus());
     }
 
-    @Test(dependsOnMethods = {"postRequest","getRequest"})
+    @Test(dependsOnMethods = "postRequest")
     public void putRequest(){
         //Set Url
         spec.pathParams("first","pet");
@@ -103,7 +103,7 @@ public class Task5 extends PetStoreBaseUrl {
 
     }
 
-    @Test(dependsOnMethods = {"postRequest","getRequest","putRequest"})
+    @Test(dependsOnMethods = "postRequest")
     public void deleteRequest(){
         //Set Url
         spec.pathParams("first","pet"
