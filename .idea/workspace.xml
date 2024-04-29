@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31647395-f057-4b83-a9f5-648c3352aa84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day04/C16_PostRequestNestedMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day04/C17_PostRequestNestedMapTestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day04/C18_GetRequestNestedMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day04/C19_GetRequestNestedPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day04/C20_GetRequestNestedPojo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/BookingDatesPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/BookingPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/BookingResponsePojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testdata/RestfulTestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day04/C21_DeleteRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day05/C22_ObjectMapperMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day05/C23_ObjectMapperPojo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base_urls/RestFullBaseUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base_urls/RestFullBaseUrl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +60,9 @@
     "TestNG.C18_GetRequestNestedMap.test.executor": "Run",
     "TestNG.C19_GetRequestNestedPojo.test.executor": "Run",
     "TestNG.C20_GetRequestNestedPojo2.test.executor": "Run",
+    "TestNG.C21_DeleteRequest.test.executor": "Run",
+    "TestNG.C22_ObjectMapperMap.test.executor": "Run",
+    "TestNG.C23_ObjectMapperPojo.test.executor": "Run",
     "TestNG.FirstApiTest.test1.executor": "Run",
     "TestNG.StaticImportBaseURI.test03.executor": "Run",
     "TestNG.StaticImportBaseURI.test2.executor": "Run",
@@ -94,61 +90,7 @@
       <recent name="base_urls" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C20_GetRequestNestedPojo2.test">
-    <configuration name="C16_PostRequestNestedMap.postNestedMapTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SDA2024_API" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day04" />
-      <option name="MAIN_CLASS_NAME" value="day04.C16_PostRequestNestedMap" />
-      <option name="METHOD_NAME" value="postNestedMapTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C17_PostRequestNestedMapTestData.postNestedMapTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SDA2024_API" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day04" />
-      <option name="MAIN_CLASS_NAME" value="day04.C17_PostRequestNestedMapTestData" />
-      <option name="METHOD_NAME" value="postNestedMapTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C18_GetRequestNestedMap.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SDA2024_API" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day04" />
-      <option name="MAIN_CLASS_NAME" value="day04.C18_GetRequestNestedMap" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.C23_ObjectMapperPojo.test">
     <configuration name="C19_GetRequestNestedPojo.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SDA2024_API" />
       <extension name="coverage">
@@ -185,13 +127,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C21_DeleteRequest.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SDA2024_API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day05" />
+      <option name="MAIN_CLASS_NAME" value="day04.C21_DeleteRequest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C22_ObjectMapperMap.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SDA2024_API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day05" />
+      <option name="MAIN_CLASS_NAME" value="day05.C22_ObjectMapperMap" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C23_ObjectMapperPojo.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SDA2024_API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day05" />
+      <option name="MAIN_CLASS_NAME" value="day05.C23_ObjectMapperPojo" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C23_ObjectMapperPojo.test" />
+        <item itemvalue="TestNG.C22_ObjectMapperMap.test" />
+        <item itemvalue="TestNG.C21_DeleteRequest.test" />
         <item itemvalue="TestNG.C20_GetRequestNestedPojo2.test" />
         <item itemvalue="TestNG.C19_GetRequestNestedPojo.test" />
-        <item itemvalue="TestNG.C18_GetRequestNestedMap.test" />
-        <item itemvalue="TestNG.C17_PostRequestNestedMapTestData.postNestedMapTest" />
-        <item itemvalue="TestNG.C16_PostRequestNestedMap.postNestedMapTest" />
       </list>
     </recent_temporary>
   </component>
@@ -256,6 +252,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/day05/C22_ObjectMapperMap.java</url>
+          <line>17</line>
+          <properties class="day05.C22_ObjectMapperMap" method="test">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/day05/C23_ObjectMapperPojo.java</url>
+          <line>18</line>
+          <properties class="day05.C23_ObjectMapperPojo" method="test">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
