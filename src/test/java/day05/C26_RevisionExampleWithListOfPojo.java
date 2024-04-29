@@ -2,20 +2,15 @@ package day05;
 
 import base_urls.JsonPlaceHolderBaseUrl;
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 import pojo.JsonPlaceHolderPojo;
-import utilities.ObjectMapperUtilities;
-
-import java.util.List;
 
 import static io.restassured.RestAssured.given;
 import static org.testng.AssertJUnit.assertTrue;
 import static utilities.ObjectMapperUtilities.convertJsonToJava;
 
-public class C26_ListOfPojo extends JsonPlaceHolderBaseUrl {
+public class C26_RevisionExampleWithListOfPojo extends JsonPlaceHolderBaseUrl {
     @Test
     public void test() throws JsonProcessingException {
         //Set Url
