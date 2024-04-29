@@ -19,16 +19,28 @@ POJO = plain Old Java Object -----> Perfect template to create instances
 
 
     private Integer userId;
+    private Integer id;
     private String title;
     private Boolean completed;
+
 
     public JsonPlaceHolderPojo(){
 
     }
-    public JsonPlaceHolderPojo(Integer userId, String title, Boolean completed) {
+
+
+    public JsonPlaceHolderPojo(Integer userId,String title, Boolean completed) {
         this.userId = userId;
         this.title = title;
         this.completed = completed;
+
+    }
+    public JsonPlaceHolderPojo(Integer userId, Integer id ,String title, Boolean completed) {
+        this.userId = userId;
+        this.id = id;
+        this.title = title;
+        this.completed = completed;
+
     }
 
     public Integer getUserId() {
@@ -55,10 +67,19 @@ POJO = plain Old Java Object -----> Perfect template to create instances
         this.completed = completed;
     }
 
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
     @Override
     public String toString() {
         return "{" +
                 "userId=" + userId +
+                ", id=" + id +
                 ", title='" + title + '\'' +
                 ", completed=" + completed +
                 '}';

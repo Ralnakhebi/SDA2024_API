@@ -74,7 +74,7 @@ public class C09_GroovyLanguage extends JsonPlaceHolderBaseUrl {
 
 //        5)Print id whose title is "quo adipisci enim quam ut ab"
 //        Assert that id is 8
-        Object withObject=json.getList("findAll{it.title=='quo adipisci enim quam ut ab'}.id").get(0);
+        Object withObject=json.getList("{it.title=='quo adipisci enim quam ut ab'}.id").get(0);
         List<Integer> idWithSpecTitle=json.getList("findAll{it.title=='quo adipisci enim quam ut ab'}.id");
         assertEquals(1, idWithSpecTitle.size());
         System.out.println("idWithSpecTitle.get(0) = " + idWithSpecTitle.get(0));
