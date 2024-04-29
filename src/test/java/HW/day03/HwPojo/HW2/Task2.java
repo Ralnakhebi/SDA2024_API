@@ -17,7 +17,7 @@ public class Task2 extends PetStoreBaseUrl {
         //Set Url
         spec.pathParam("first","user");
         //Set Expected Data
-        UserPojo_HW2 payLoad =new UserPojo_HW2(0
+        UserPojo_HW2 payLoad =new UserPojo_HW2(0L
                 ,"UserTest"
                 ,"userFirstName"
                 ,"userLastName"

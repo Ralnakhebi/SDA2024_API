@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class UserPojo_HW2 {
-    private Integer id;
+    private Long id;
     private String username;
     private String firstName;
     private String lastName;
@@ -16,7 +16,7 @@ public class UserPojo_HW2 {
     public UserPojo_HW2() {
     }
 
-    public UserPojo_HW2(Integer id, String username, String firstName, String lastName, String email, String password, String phone, Integer userStatus) {
+    public UserPojo_HW2(Long id, String username, String firstName, String lastName, String email, String password, String phone, Integer userStatus) {
         this.id = id;
         this.username = username;
         this.firstName = firstName;
@@ -27,11 +27,11 @@ public class UserPojo_HW2 {
         this.userStatus = userStatus;
     }
 
-    public Integer getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
