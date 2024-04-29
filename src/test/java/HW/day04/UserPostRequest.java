@@ -37,17 +37,9 @@ public class UserPostRequest extends PetStoreBaseUrl {
         //Send Post Request and get Response
         Response response = given(spec).body(expectedData).when().post("{first}");
         response.prettyPrint();
-        //UserPojo_HW2 actualData = convertJsonToJava(response.asString(),UserPojo_HW2.class);
 
         //Do assertions
         assertEquals(200,response.statusCode());
-//        assertEquals(expectedData.getId(),actualData.getId());
-//        assertEquals(expectedData.getUsername(),actualData.getUsername());
-//        assertEquals(expectedData.getFirstName(),actualData.getFirstName());
-//        assertEquals(expectedData.getLastName(),actualData.getLastName());
-//        assertEquals(expectedData.getEmail(),actualData.getEmail());
-//        assertEquals(expectedData.getPassword(),actualData.getPassword());
-//        assertEquals(expectedData.getPhone(),actualData.getPhone());
-//        assertEquals(expectedData.getUserStatus(),actualData.getUserStatus());
+
     }
 }
