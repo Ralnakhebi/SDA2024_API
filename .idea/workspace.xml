@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31647395-f057-4b83-a9f5-648c3352aa84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day04/UserDeleteRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day04/UserGetRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day04/UserPostRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HW/day04/UserPutRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/base_urls/DummyRestBaseUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day06/C28_RevisionExample03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HW/day03/HwPojo/HW2/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HW/day03/HwPojo/HW2/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HW/day03/HwPojo/HW2/UserPojo_HW2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HW/day03/HwPojo/HW2/UserPojo_HW2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +67,7 @@
     "TestNG.C26_ListOfPojo.test.executor": "Run",
     "TestNG.C26_RevisionExample.executor": "Run",
     "TestNG.C27_RevisionExample2.test.executor": "Run",
+    "TestNG.C28_RevisionExample03.test.executor": "Run",
     "TestNG.FirstApiTest.test1.executor": "Run",
     "TestNG.StaticImportBaseURI.test03.executor": "Run",
     "TestNG.StaticImportBaseURI.test2.executor": "Run",
@@ -87,6 +84,7 @@
     "TestNG.Task5.getRequest.executor": "Run",
     "TestNG.Task5.postRequest.executor": "Run",
     "TestNG.Task5.putRequest.executor": "Run",
+    "TestNG.UserDeleteRequest.deleteRequest.executor": "Run",
     "TestNG.UserGetRequest.getRequest.executor": "Run",
     "TestNG.UserGetRequest.postRequest.executor": "Run",
     "TestNG.UserPostRequest.postRequest.executor": "Run",
@@ -104,7 +102,25 @@
       <recent name="base_urls" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.UserDeleteRequest.deleteRequest">
+  <component name="RunManager" selected="TestNG.C28_RevisionExample03.test">
+    <configuration name="C28_RevisionExample03.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SDA2024_API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day06" />
+      <option name="MAIN_CLASS_NAME" value="day06.C28_RevisionExample03" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserDeleteRequest.deleteRequest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SDA2024_API" />
       <extension name="coverage">
@@ -159,24 +175,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserPutRequest.postRequest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SDA2024_API" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HW.day04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="HW.day04" />
-      <option name="MAIN_CLASS_NAME" value="HW.day04.UserPutRequest" />
-      <option name="METHOD_NAME" value="postRequest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserPutRequest.putRequest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SDA2024_API" />
       <extension name="coverage">
@@ -197,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C28_RevisionExample03.test" />
         <item itemvalue="TestNG.UserDeleteRequest.deleteRequest" />
         <item itemvalue="TestNG.UserPostRequest.postRequest" />
         <item itemvalue="TestNG.UserGetRequest.getRequest" />
         <item itemvalue="TestNG.UserPutRequest.putRequest" />
-        <item itemvalue="TestNG.UserPutRequest.postRequest" />
       </list>
     </recent_temporary>
   </component>
@@ -284,15 +282,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/HW/day04/UserPostRequest.java</url>
-          <line>17</line>
-          <properties class="HW.day04.UserPostRequest" method="postRequest">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/HW/day04/UserPutRequest.java</url>
