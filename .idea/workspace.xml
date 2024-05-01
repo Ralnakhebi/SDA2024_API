@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31647395-f057-4b83-a9f5-648c3352aa84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day06/C29_PetStorePetMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day06/C30_RequestsWithAuthorization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/booking/DataItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/booking/Links.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/booking/Meta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/booking/Pagination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/booking/UserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/petstore/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/petstore/ResponsePet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/petstore/TagsItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day06/C30_UsingPluginForPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day07/C31_CreateBooking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HW/day03/HwPojo/HW5/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HW/day03/HwPojo/HW5/Task5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base_urls/GorestBaseUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base_urls/GorestBaseUrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base_urls/JsonPlaceHolderBaseUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base_urls/JsonPlaceHolderBaseUrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day06/C30_RequestsWithAuthorization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day06/C30_RequestsWithAuthorization.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +72,7 @@
     "TestNG.C29_PetStorePetMethods.createPet.executor": "Run",
     "TestNG.C29_PetStorePetMethods.deletePetTest.executor": "Run",
     "TestNG.C30_RequestsWithAuthorization.createUser.executor": "Run",
+    "TestNG.C31_CreateBooking.executor": "Run",
     "TestNG.FirstApiTest.test1.executor": "Run",
     "TestNG.StaticImportBaseURI.test03.executor": "Run",
     "TestNG.StaticImportBaseURI.test2.executor": "Run",
@@ -116,43 +107,7 @@
       <recent name="base_urls" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C30_RequestsWithAuthorization.createUser">
-    <configuration name="C28_RevisionExample03.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SDA2024_API" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day06" />
-      <option name="MAIN_CLASS_NAME" value="day06.C28_RevisionExample03" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C29_PetStorePetMethods.createPet" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SDA2024_API" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day06" />
-      <option name="MAIN_CLASS_NAME" value="day06.C29_PetStorePetMethods" />
-      <option name="METHOD_NAME" value="createPet" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.C32_GetBooking">
     <configuration name="C29_PetStorePetMethods.deletePetTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SDA2024_API" />
       <extension name="coverage">
@@ -189,18 +144,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDeleteRequest.deleteRequest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C31_CreateBooking" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SDA2024_API" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW.day04.*" />
+          <option name="PATTERN" value="day07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HW.day04" />
-      <option name="MAIN_CLASS_NAME" value="HW.day04.UserDeleteRequest" />
-      <option name="METHOD_NAME" value="deleteRequest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="day07" />
+      <option name="MAIN_CLASS_NAME" value="day07.C31_CreateBooking" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C32_GetBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SDA2024_API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day07" />
+      <option name="MAIN_CLASS_NAME" value="day07.C32_GetBooking" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C33_UpdateBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SDA2024_API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day07" />
+      <option name="MAIN_CLASS_NAME" value="day07.C33_UpdateBooking" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -209,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C32_GetBooking" />
+        <item itemvalue="TestNG.C33_UpdateBooking" />
+        <item itemvalue="TestNG.C31_CreateBooking" />
         <item itemvalue="TestNG.C30_RequestsWithAuthorization.createUser" />
         <item itemvalue="TestNG.C29_PetStorePetMethods.deletePetTest" />
-        <item itemvalue="TestNG.C29_PetStorePetMethods.createPet" />
-        <item itemvalue="TestNG.C28_RevisionExample03.test" />
-        <item itemvalue="TestNG.UserDeleteRequest.deleteRequest" />
       </list>
     </recent_temporary>
   </component>
