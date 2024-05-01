@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31647395-f057-4b83-a9f5-648c3352aa84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day06/C30_UsingPluginForPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day07/C31_CreateBooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day07/C35_DeleteBooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day07/C36_GetBookingNegative.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day06/C30_RequestsWithAuthorization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day06/C30_RequestsWithAuthorization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base_urls/RestFullBaseUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base_urls/RestFullBaseUrl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +73,8 @@
     "TestNG.C29_PetStorePetMethods.deletePetTest.executor": "Run",
     "TestNG.C30_RequestsWithAuthorization.createUser.executor": "Run",
     "TestNG.C31_CreateBooking.executor": "Run",
+    "TestNG.C32_GetBooking.executor": "Run",
+    "TestNG.C33_UpdateBooking.executor": "Run",
     "TestNG.FirstApiTest.test1.executor": "Run",
     "TestNG.StaticImportBaseURI.test03.executor": "Run",
     "TestNG.StaticImportBaseURI.test2.executor": "Run",
